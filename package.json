@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "wrangler pages dev --compatibility-date=2023-01-01 -- npx vite",
+    "build": "vite build",
+    "deploy": "npm run build && wrangler pages publish pages"
+  },
+  "type": "module",
+  "dependencies": {
+    "hono": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230628.0",
+    "@types/react": "^18.2.16",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.7",
+    "wrangler": "^3.1.2"
+  }
+}

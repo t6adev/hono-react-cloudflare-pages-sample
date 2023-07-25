@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "strict": true,
+    "lib": [
+      "ESNext", "DOM"
+    ],
+    "types": [
+      "@cloudflare/workers-types"
+    ],
+  }
+}
